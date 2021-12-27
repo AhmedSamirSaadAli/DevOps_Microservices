@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag=api .
+docker build --tag=mysamir_api .
 
 
 # Step 2: 
@@ -14,5 +14,5 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -d -p 8000:80 api
+docker run -d -p 8000:80 mysamir_api
 
