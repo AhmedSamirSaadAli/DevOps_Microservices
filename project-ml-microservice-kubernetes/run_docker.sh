@@ -14,5 +14,5 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -d -p 8000:80 mysamir_api
+docker run  -p 8000:80 mysamir_api
 
